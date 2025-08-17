@@ -1,4 +1,4 @@
-# pytisfactory - python Tool for statisfactory
+# pytisfactory - python Tool for satisfactory
 
 [Satisfactory](https://www.satisfactorygame.com/) is a game of building factories.
 
@@ -10,6 +10,10 @@ I wrote this [python module](./pytisfactory.py) to help me:
 - Save the topological graph of factory group and visualize it by mermaid code
 
 You can explore [app.py](./app.py) for the usages.
+
+幸福工厂拓扑工具，提供一种额外的蓝图方式(不能帮你一键在游戏中建造)。  
+可以用来计算工厂消耗和产出，保存工厂的拓扑结构以及用于 mermaid 绘制的指令。  
+仓库没有集成 mermaid 包，你需要自己将生成的 mmd 文件渲染成图片。
 
 ## example
 
