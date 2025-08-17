@@ -930,6 +930,7 @@ def format_architect(architect: str) -> str:
             result += '->\n' + tab * level
             last_char = ''
             continue
+        last_char = ''
         result += char
     return result
 

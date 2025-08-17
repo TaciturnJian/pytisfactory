@@ -56,11 +56,6 @@ def 油田小循环():
     c = Serial("塑料产出", [y,b])
     d = Parallel("精炼产物消耗", [x, c])
     return Serial("油田小循环", [a, d])
-
-def test():
-    a = multiple(Machines["构筑站_螺丝"], 3)
-    b = multiple(Machines["铁棒"], 2)
-    return Serial("螺丝120", [b, a])
     
     
 if __name__ == "__main__":
